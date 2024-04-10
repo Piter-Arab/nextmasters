@@ -8,3 +8,8 @@ export type ProductItemType = {
     alt: string;
   };
 };
+
+export type NavLinkProps = {
+  name: string;
+  href: string;
+};

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/ui/organisms/Footer";
+import { Navbar } from "@/ui/organisms/Navbar";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lato.className}>
+        <Navbar />
         <section className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           {children}
         </section>
