@@ -9,6 +9,8 @@
     "lint": "next lint --fix --dir src"
   },
   "dependencies": {
+    "headlessui": "^0.0.0",
+    "heroicons": "^2.1.3",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18"
