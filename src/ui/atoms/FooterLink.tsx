@@ -1,12 +1,7 @@
 import Link from "next/link";
-import React from "react";
+import { type NavLinkProps } from "../types";
 
-type FooterLinkProps = {
-  name: string;
-  href: string;
-};
-
-export const FooterLink = ({ name, href }: FooterLinkProps) => {
+export const FooterLink = ({ name, href }: NavLinkProps) => {
   return (
     <div key={name} className="pb-6">
       <Link
